@@ -5,38 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impressum</title>
     <style>
+        /* Grundstile */
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
+            background: linear-gradient(135deg, #00bcd4, #00897b);
+            color: #ffffff;
         }
+
         header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
+            background-color: #212121;
+            color: #ffffff;
+            padding: 3rem;
             text-align: center;
-            font-size: 24px;
-            letter-spacing: 1px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            letter-spacing: 2px;
+            border-bottom: 5px solid #00bcd4;
         }
+
         .content {
-            padding: 30px;
+            padding: 40px;
             max-width: 900px;
-            margin: 20px auto;
-            background-color: white;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            font-size: 16px;
-            line-height: 1.6;
+            margin: 40px auto;
+            background-color: #ffffff;
+            color: #333333;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            font-weight: 300;
         }
+
         h2 {
-            font-size: 22px;
-            color: #333;
-            margin-bottom: 20px;
+            font-size: 1.8rem;
+            color: #00bcd4;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
         }
+
+        h3 {
+            font-size: 1.5rem;
+            color: #333333;
+            margin-top: 1.5rem;
+        }
+
         p {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        p a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        p a:hover {
+            color: #00897b;
+        }
+
+        footer {
+            background-color: #212121;
+            color: #ffffff;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 1rem;
+            margin-top: 2rem;
+            border-top: 5px solid #00bcd4;
+        }
+
+        footer a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #00897b;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            header {
+                font-size: 2rem;
+                padding: 2rem;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            footer {
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -53,10 +119,15 @@
         E-Mail: <a href="mailto:raffaelbauer@icloud.com">raffaelbauer@icloud.com</a></p>
 
         <h3>Haftungsausschluss</h3>
-        <p>Ich habe die Inhalte dieser Webseite mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte übernehme ich jedoch keine Gewähr. Als Privatperson bin ich gemäß den schweizerischen Gesetzen für eigene Inhalte auf dieser Seite verantwortlich. Ich bin jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.</p>
+        <p>Die Inhalte dieser Webseite wurden mit größter Sorgfalt erstellt. Dennoch übernehme ich keine Haftung für die Richtigkeit, Vollständigkeit oder Aktualität der bereitgestellten Inhalte. Als Privatperson bin ich gemäß den schweizerischen Gesetzen für eigene Inhalte auf dieser Seite verantwortlich. Für Inhalte, die von Dritten übermittelt oder gespeichert werden, übernehme ich jedoch keine Verantwortung, es sei denn, es liegt eine gesetzliche Verpflichtung zur Überwachung vor.</p>
 
         <h3>Urheberrecht</h3>
-        <p>Die von mir erstellten Inhalte und Werke auf dieser Seite unterliegen dem schweizerischen Urheberrecht. Inhalte oder Beiträge von Dritten sind als solche gekennzeichnet.</p>
+        <p>Die auf dieser Webseite veröffentlichten Inhalte und Werke unterliegen dem schweizerischen Urheberrecht. Alle Rechte an den Inhalten, die von mir erstellt wurden, bleiben bei mir. Beiträge von Dritten werden entsprechend gekennzeichnet und sind ebenfalls urheberrechtlich geschützt.</p>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Raffael Bauer. Alle Rechte vorbehalten.</p>
+        <p><a href="https://raffaelbauer.github.io/Datenschutzbestimmungen/">Datenschutzbestimmungen</a> | <a href="https://raffaelbauer.github.io/Impressum/">Impressum</a></p>
+    </footer>
 </body>
 </html>
